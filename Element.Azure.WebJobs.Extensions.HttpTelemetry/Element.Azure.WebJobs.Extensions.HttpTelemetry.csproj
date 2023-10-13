@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <VersionPrefix>1.0.1</VersionPrefix>
+    <Title>Element.Azure.WebJobs.Extensions.HttpTelemetry</Title>
+    <Authors>Brian Dunnington</Authors>
+    <Description>WebJobs extension for Azure Functions to treat HttpTriggers like regular HTTP requests for the purposes of logging in Application Insights. If an HttpTrigger returns a 4xx or 5xx response, it will be logged as an error in Application Insights.
+If you are using Isolated functions, do not use this package directly. Use Element.Azure.Functions.Worker.Extensions.HttpTelemetry instead.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.37" />
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.21.0" />
+  </ItemGroup>
+
+</Project>

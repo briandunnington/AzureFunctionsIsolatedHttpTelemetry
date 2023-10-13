@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Element.Azure.Functions.Worker.Extensions.HttpTelemetry", "Element.Azure.Functions.Worker.Extensions.HttpTelemetry\Element.Azure.Functions.Worker.Extensions.HttpTelemetry.csproj", "{19C510EA-FBE7-430E-8B6E-1B1E29234F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Element.Azure.WebJobs.Extensions.HttpTelemetry", "Element.Azure.WebJobs.Extensions.HttpTelemetry\Element.Azure.WebJobs.Extensions.HttpTelemetry.csproj", "{62EF62B4-0DA9-4F35-94FE-4B4EDBFC4ADA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19C510EA-FBE7-430E-8B6E-1B1E29234F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C510EA-FBE7-430E-8B6E-1B1E29234F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C510EA-FBE7-430E-8B6E-1B1E29234F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C510EA-FBE7-430E-8B6E-1B1E29234F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62EF62B4-0DA9-4F35-94FE-4B4EDBFC4ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EF62B4-0DA9-4F35-94FE-4B4EDBFC4ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62EF62B4-0DA9-4F35-94FE-4B4EDBFC4ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62EF62B4-0DA9-4F35-94FE-4B4EDBFC4ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDA31DD1-4AF2-4203-9552-6FA7690C3A83}
+	EndGlobalSection
+EndGlobal
