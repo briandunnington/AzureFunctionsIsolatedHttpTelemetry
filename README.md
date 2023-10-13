@@ -1,4 +1,4 @@
-# AzureFunctionsIsolatedHttpTelemetry
+# HTTP success/failure logging for Isolated Azure Functions
 Provides standard HTTP request logging handling for Azure Functions running in Isolated mode so that 4xx and 5xx responses are logged as Failures in AppInsights.
 
 ## Usage
