@@ -54,7 +54,7 @@ namespace Element.Azure.WebJobs.Extensions.HttpTelemetry
         public void Initialize(ExtensionConfigContext context)
         {
             var bindingRule = context.AddBindingRule<HttpTelemetryAttribute>();
-            bindingRule.BindToInput<object?>(attr => new object());
+            bindingRule.BindToInput<string?>(attr => "");
         }
     }
 }
