@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <VersionPrefix>1.0.3</VersionPrefix>
+    <VersionPrefix>1.1.0</VersionPrefix>
     <Title>Element.Azure.Functions.Worker.Extensions.HttpTelemetry</Title>
     <Authors>Brian Dunnington</Authors>
     <Description>Azure Functions Isolated worker extension to enable compatiblity with Element.Azure.WebJobs.Extensions.HttpTelemetry.
